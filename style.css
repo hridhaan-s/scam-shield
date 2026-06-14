@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+font-family: 'Courier New', Courier, monospace;
+background-color: #0d0d0d;
+color: #ffffff;
+min-height: 100vh;
+
+}
+
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 6%;
+background-color: #0d0d0d;
+border-bottom: 2px solid #222222;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+postion: sticky;
+top: 0;
+z-index: 100;
+
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 800;
+        letter-spacing: -1px;
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a {
+    color: #a0a0a0; /* Subdued gray links so the main content stands out */
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 8%;
+    min-height: 80vh;
+    gap: 50px;
+
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+
+
+/* TODO: Fix the search button margin when I get back! */
